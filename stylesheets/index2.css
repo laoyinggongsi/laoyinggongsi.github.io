@@ -1,0 +1,234 @@
+@charset "gb2312";
+body{
+	padding:0;
+	margin:0;
+	background-image: url(../img/bodybg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #fdf4d7;
+}
+h1,h2,h3,h4,h5,p,ul,li,a,span,i,input{ padding:0; margin:0;}
+img{ border:0;}
+#conter{ width:1000px; margin:0 auto;}
+#top{}
+#topmenu{height:145px; overflow:hidden;}
+#topmenu p{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #fef098;
+	padding:31px 0 0 870px;
+}
+#topmenu p a{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #fef098;
+	text-decoration: none;
+}
+
+#menu{ height:45px; overflow:hidden;}
+#menu ul{ list-style-type:none; padding-top:11px;}
+#menu ul li{}
+#menu ul li a{
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff7bd;
+	text-decoration: none;
+}
+#menu ul li{
+	float:left;
+	background-image: url(../img/fgx.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding:5px 34px 5px 34px;
+}
+#menu ul li a{
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #fcf8db;
+	text-decoration: none;
+}
+#menu ul .mmm{background-image:none; padding-right:0px;}
+#flashbl{ padding-left:10px;}
+#main{ padding-top:20px;}
+#ma1{
+	background-image: url(../img/b1.gif);
+	background-repeat: no-repeat;
+	width:243px;
+	height:183px;
+	overflow:hidden;
+	float:left;
+	margin-left:1px;
+	display:inline;
+}
+#ma1main{}
+#ma1main ul{ list-style-type:none; padding:6px 0 0 9px;}
+#ma1main ul li{
+	line-height: 27px;
+}
+#ma1main ul li a{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #2d1300;
+	text-decoration: none;
+	background-image: url(../img/ico1.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:10px;
+	
+}
+
+#ma2{background-image: url(../img/b2.gif);
+	background-repeat: no-repeat;
+	width:492px;
+	height:183px;
+	overflow:hidden;
+	float:left;
+	margin-left:16px;
+	display:inline;
+}
+#ma3{background-image: url(../img/b3.gif);
+	background-repeat: no-repeat;
+	width:230px;
+	height:183px;
+	overflow:hidden;
+	float:left;
+	margin-left:16px;
+	display:inline;
+}
+#ma3main{ padding:3px; padding-left:4px;}
+#ma1top{ height:31px; overflow:hidden;}
+#ma1top h1{
+	float:left;
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #5d4f06;
+	float:left;
+	padding:10px 0 0 30px;
+}
+#ma1top h2{ float:left; padding:8px 0 0 120px;}
+#ma1top h2 a{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #950101;
+	text-decoration: none;
+}
+#ma2main{ }
+#ma2main h1{ float:left; padding:10px 0 0 14px; }
+#ma2main p{
+	line-height: 26px;
+	float:left;
+	width:322px;
+	font-family: "宋体";
+	font-weight: normal;
+	color: #2d1300;
+	line-height: 26px;
+	text-decoration: none;
+	font-size: 12px;
+	padding:8px 0 0 14px;
+}
+#ma2main p a{
+	font-family: "宋体";
+	font-weight: bold;
+	color: #df1000;
+	line-height: 26px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#mb{ padding-top:10px;}
+#mb1{
+	background-image: url(../img/b4.gif);
+	background-repeat: no-repeat;
+	width:243px;
+	height:143px;
+	overflow:hidden;
+	float:left;
+	margin-left:1px;
+	display:inline;
+}
+#mb1 p{
+	font-family: "宋体";
+	line-height: 20px;
+	font-weight: normal;
+	color: #444444;
+	font-size: 12px;
+	padding:7px 0 0 15px;
+}
+#mb2{
+	background-image: url(../img/b5.gif);
+	background-repeat: no-repeat;
+	width:493px;
+	height:143px;
+	overflow:hidden;
+	float:left;
+	margin-left:15px;
+	display:inline;
+}
+#mb2m{ padding-top:14px;}
+#mb2m h2{ float:left; padding-left:14px; padding-right:4px;}
+#mb3{margin-left:15px; float:left;
+	display:inline;}
+#mb3 h1{}
+#mb3 h2{ padding-top:15px;}
+#footer{ padding-top:10px;}
+#fm1{
+	background-image: url(../img/fmenu.gif);
+	background-repeat: no-repeat;
+	width:997px;
+	height:37px;
+	overflow:hidden;
+	margin:0 auto;
+}
+#fm1 p{ padding:10px 0 0 190px;}
+#fm1 p a{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #5d4f06;
+	text-decoration: none;
+}
+#fm2{ padding-top:15px; padding-bottom:10px;}
+#fm2 p{
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #444444;
+	text-align: center;
+}
+#fm2 p a{
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear {
+	clear:both;
+}
